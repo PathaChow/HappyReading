@@ -8,3 +8,4 @@ node RAServer.js
 You will be able to access the website by typing http://localhost:3000/ in any browser. 
 The only avaliable term for searching in this demo is "RAbook".
 If there's any problem, contact me at xuczhou@ucdavis.edu.
+Now avaliable at lanchoustories.com
