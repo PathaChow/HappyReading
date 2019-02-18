@@ -1,0 +1,53 @@
+<!doctype HTML>
+
+<HTML>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width">
+<title> Demo site</title>
+<link rel="stylesheet" type="text/css" href="RA.css">
+<link href="https://fonts.googleapis.com/css?family=Montserrat:700,300" rel="stylesheet">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<body>
+<main>
+
+<div class="heading">
+A reading-assistant site for dyslexic students
+</div>
+
+<div class="central">
+<img id="c-left" class="c-left"></img>
+<div id="wrapper">
+<div id="c-right" class="c-right">
+</div>
+<div id="keys"></div>
+<div id="grammar"></div>
+</div>
+
+</div>
+
+<div id="left-right">
+	<span class="arrow buttons" onclick="turnLeft()"><i class="fas fa-chevron-circle-left"></i></span>
+	<span class="arrow buttons" onclick="turnRight()"><i class="fas fa-chevron-circle-right"></i></span>
+</div>
+
+<div id="keyWordBar">
+</div>
+
+<div id="buttonBar">
+	<span id="sentiment" class = "analyze buttons"  onclick="funcSentiment()"><i class="fas fa-heart"></i></span>
+	<span id="keywords" class = "analyze buttons"  onclick="funcKeywords()"><i class="fas fa-key"></i></span>
+	<span id="syntax" class = "analyze buttons"  onclick="funcSyntax()"><i class="fas fa-align-left"></i></span>
+	<!-- <button id="breakdown" onclick="funcBreakdown()">breakdown</button>-->
+</div>
+<div id="searchBar">
+<input id="bookname" class="bookname" placeholder="what do you want?"> 
+<span class = "buttons" onclick="getbook()"><i class="fas fa-search"></i></button>
+</div>
+
+</main>
+
+
+<script src="RA.js"> </script>
+</body>
+
+</HTML>
